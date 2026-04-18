@@ -1,0 +1,75 @@
+---
+name: usecase.yaml
+about: Describe this issue template's purpose here.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: Use Case
+description: Detailed specification for a system use case
+labels: ["type:usecase"]
+body:
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: dropdown
+    attributes:
+      label: Status
+      options:
+        - Proposed
+        - Approved
+        - Incorporated
+        - Validated
+
+  - type: dropdown
+    attributes:
+      label: Difficulty
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: dropdown
+    attributes:
+      label: Stability
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: input
+    attributes:
+      label: Target Version
+      placeholder: "Ví dụ: v1.0, MVP..."
+
+  - type: textarea
+    attributes:
+      label: Actor
+      placeholder: "Tác nhân thực hiện (Sinh viên, Kế toán, AI Engine...)"
+
+  - type: textarea
+    attributes:
+      label: Precondition
+      placeholder: "Điều kiện cần thiết để Use Case bắt đầu..."
+
+  - type: textarea
+    attributes:
+      label: Main Flow
+      placeholder: "Luồng sự kiện chính (thành công)..."
+
+  - type: textarea
+    attributes:
+      label: Alternate Flows
+      placeholder: "Các trường hợp ngoại lệ hoặc rẽ nhánh..."
+
+  - type: textarea
+    attributes:
+      label: Origin (Trace From)
+      placeholder: "Ghi mã STRQ hoặc FEAT cha liên quan..."

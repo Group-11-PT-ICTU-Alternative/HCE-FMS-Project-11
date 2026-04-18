@@ -1,0 +1,52 @@
+---
+name: feature.
+about: Describe this issue template's purpose here.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: Feature
+description: High-level system feature or module
+labels: ["type:feature"]
+body:
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: dropdown
+    attributes:
+      label: Status
+      options:
+        - Proposed
+        - Approved
+        - Incorporated
+        - Validated
+
+  - type: dropdown
+    attributes:
+      label: Difficulty
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: textarea
+    attributes:
+      label: Description
+      placeholder: "Mô tả chức năng chính của Feature này..."
+
+  - type: textarea
+    attributes:
+      label: Benefit
+      placeholder: "Giá trị mang lại cho người dùng..."
+
+  - type: textarea
+    attributes:
+      label: Related Requests
+      placeholder: "Ánh xạ từ mã STRQ nào..."

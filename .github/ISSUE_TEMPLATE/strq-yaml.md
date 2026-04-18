@@ -1,0 +1,44 @@
+---
+name: strq.yaml
+about: Describe this issue template's purpose here.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: Stakeholder Request
+description: Original request from stakeholders (Managers, Students, etc.)
+labels: ["type:request"]
+body:
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: dropdown
+    attributes:
+      label: Status
+      options:
+        - Proposed
+        - Approved
+        - Incorporated
+        - Validated
+
+  - type: input
+    attributes:
+      label: Stakeholder Name
+      placeholder: "Ai là người đưa ra yêu cầu này? (Ví dụ: Phòng Tài chính...)"
+
+  - type: textarea
+    attributes:
+      label: Description
+      placeholder: "Nội dung yêu cầu nguyên bản..."
+
+  - type: textarea
+    attributes:
+      label: Rationale
+      placeholder: "Lý do vì sao cần yêu cầu này..."

@@ -1,0 +1,74 @@
+---
+name: supplementary.yaml
+about: Describe this issue template's purpose here.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: Supplementary Requirement
+description: Non-functional requirement (Performance, Security, etc.)
+labels: ["type:supplementary"]
+body:
+  - type: dropdown
+    attributes:
+      label: Category
+      options:
+        - Performance
+        - Security
+        - Usability
+        - Reliability
+        - Legal
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: dropdown
+    attributes:
+      label: Status
+      options:
+        - Proposed
+        - Approved
+        - Incorporated
+        - Validated
+
+  - type: dropdown
+    attributes:
+      label: Difficulty
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: dropdown
+    attributes:
+      label: Risk
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: textarea
+    attributes:
+      label: Requirement Statement
+      placeholder: "Mô tả nội dung yêu cầu phi chức năng..."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria (Testable)
+      placeholder: "Tiêu chí để kiểm chứng yêu cầu này đã đạt hay chưa..."
+
+  - type: textarea
+    attributes:
+      label: Related Feature
+      placeholder: "Ghi mã FEAT liên quan (Ví dụ: FEAT01, FEAT02...)"
