@@ -30,7 +30,7 @@ Mục tiêu cốt lõi của hệ thống là tự động hóa đến 95% quy t
 Hệ thống quản lý và phát triển dựa trên các công cụ chuẩn quy trình phần mềm:
 - Quản lý dự án & Backlog: GitHub / Jira
 - Thiết kế giao diện (Prototype): Figma
-- Mô hình hóa (BPMN, Use Case): Draw.io
+- Mô hình hóa (BPMN, Use Case): Draw.io , Heflo.com
 - Lưu trữ & Chia sẻ tài liệu: Google Drive
 
 ## Đảm bảo chất lượng & Rủi ro
