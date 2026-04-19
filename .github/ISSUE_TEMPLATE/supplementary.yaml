@@ -12,8 +12,6 @@ body:
         - Usability
         - Reliability
         - Legal
-    validations:
-      required: true
 
   - type: dropdown
     attributes:
@@ -39,6 +37,13 @@ body:
         - High
         - Medium
         - Low
+ - type: dropdown
+    attributes:
+      label: Stability
+      options:
+        - High
+        - Medium
+        - Low
 
   - type: dropdown
     attributes:
@@ -52,8 +57,7 @@ body:
     attributes:
       label: Requirement Statement
       placeholder: "Mô tả nội dung yêu cầu phi chức năng..."
-    validations:
-      required: true
+
 
   - type: textarea
     attributes:
