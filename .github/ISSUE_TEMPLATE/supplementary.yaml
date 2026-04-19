@@ -37,6 +37,7 @@ body:
         - High
         - Medium
         - Low
+
  - type: dropdown
     attributes:
       label: Stability
@@ -57,7 +58,6 @@ body:
     attributes:
       label: Requirement Statement
       placeholder: "Mô tả nội dung yêu cầu phi chức năng..."
-
 
   - type: textarea
     attributes:
